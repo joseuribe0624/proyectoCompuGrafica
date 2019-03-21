@@ -88,12 +88,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\joseuribe0624\Documents\Visual Studio 2015\Projects\malla\External Libraries\assimp\include;C:\Users\joseuribe0624\Documents\Visual Studio 2015\Projects\malla\External Libraries\SOIL2-Header;C:\opengl\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\joseuribe0624\Documents\Visual Studio 2015\Projects\malla\External Libraries\assimp\include;C:\opengl\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3dll.lib;glfw3.lib;OpenGL32.lib;freeglutd.lib;freeglut_staticd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;glfw3dll.lib;glfw3.lib;OpenGL32.lib;freeglutd.lib;freeglut_staticd.lib;soil2-debug.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)\External Libraries\SOIL2\lib;$(SolutionDir)\External Libraries\assimp\lib;C:\opengl\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>

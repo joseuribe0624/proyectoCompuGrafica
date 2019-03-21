@@ -110,10 +110,10 @@ int main()
 	
 	// Setup and compile our shaders
 	// Load models with textures
-	Shader shader("res/shaders/modelLoading.vs", "res/shaders/modelLoading.frag");  
+	//Shader shader("res/shaders/modelLoading.vs", "res/shaders/modelLoading.frag");  
 	
 	// Load models without textures only materials and color
-	//Shader shader("res/shaders/lighting.vs", "res/shaders/lighting.frag");
+	Shader shader("res/shaders/lighting.vs", "res/shaders/lighting.frag");
 	
 	Shader lampShader("res/shaders/lamp.vs", "res/shaders/lamp.frag");
 
